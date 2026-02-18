@@ -1,0 +1,36 @@
+# Personality Dynamics - Files to exclude from publishing
+# The PERSONA/ folder contains user-specific private data
+# and should NEVER be published to ClawHub
+
+PERSONA/
+PERSONA/**
+evolves/
+
+# User-specific config files (generated locally)
+core.md
+backstory.md
+voice.md
+emotional-state.md
+interests.md
+config.json
+.current-mode
+
+# These are user-specific configuration files
+core.md
+backstory.md
+voice.md
+emotional-state.md
+interests.md
+config.json
+
+# Pattern data is private to each user
+evolves/*.json
+evolves/**/*.json
+evolves/*.md
+evolves/**/*.md
+
+# Current mode state
+.current-mode
+
+# Keep only the skill framework code
+# All template files get generated locally, not published
